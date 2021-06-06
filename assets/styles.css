@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #ecf0f3;
+}
+.container {
+  display: flex;
+}
+
+.content {
+  width: 65vw;
+  padding: 1rem 5rem;
+}
+
+.start {
+  
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: larger;
+  color: rgb(31, 37, 37);
+}
+
+.input-place p {
+  color: #e49b31;
+  font-size: larger;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+.form {
+  width: 100%;
+  padding: 5px 3px 5px 5px;
+  margin-bottom: 30px;
+  margin-left: 1rem;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff;
+}
+.form input {
+  border: none;
+  outline:none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding:10px 10px 20px 10px;
+}
+
+.button {
+  outline: none;
+  border:none;
+  cursor: pointer;
+  width:100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align: center;
+  background: #3a6bea;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.button:hover {
+  background:#86a7ff;
+}
+.button:active {
+  background:#1f3c88;
+}
+.buttons {
+  margin: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around;
+}
+#forecast {
+  
+  height: 2.2rem;
+}
+#n_days {
+  height: 1rem;
+  margin-top: 0.3rem;
+ 
+}
+.forecast-btn{
+  outline: none;
+  border:none;
+  cursor: pointer;
+  width:100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align: center;
+  background: #3a6bea;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.forecast-btn:hover {
+  background:#86a7ff;
+}
+.forecast-btn:active {
+  background:#1f3c88;
+}
+
+.stock-btn{
+  outline: none;
+  border:none;
+  cursor: pointer;
+  width:100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align: center;
+  background: #1f3c88;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.stock-btn:hover {
+  background:#86a7ff;
+}
+.stock-btn:active {
+  background:#d3dfff;
+}
+.indicators-btn{
+  outline: none;
+  border:none;
+  cursor: pointer;
+  width:100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align: center;
+  background: #1f3c88;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.indicators-btn:hover {
+  background:#86a7ff;
+}
+.indicators-btn:active {
+  background:#d3dfff;
+}
+.buttons button {
+  width: 40%;
+  border: none;
+  
+}
+
+.date{
+  margin-left: 4rem;
+  width: 75%;
+  padding: 3px  3px ;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+              inset -8px -8px 8px #ffffff;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+}
+.header p {
+  font-size: 4rem;
+  margin-left: 3rem;  
+  line-height: 80%;
+}
+.comp_header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+}
+.comp_header p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 2rem;  
+  line-height: 80%;
+  font-family: "Montserrat";
+}
+#logo {
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 9px;
+  box-shadow: 
+  /* logo shadow */
+  0px 0px 2px #5f5f5f,
+  /* offset */
+  0px 0px 0px 5px #ecf0f3,
+  /*bottom right */
+  8px 8px 15px #a7aaaf,
+  /* top left */
+  -8px -8px 15px #ffffff
+  ;
+}
+.icon{
+  height: 22px;
+  margin:0 10px -3px 25px;
+}
+.gnp{
+  width: 60%;
+  height: auto;
+  padding: 0 180px;  
+}
+#comp_logo {
+  width:auto;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 15px;
+  box-shadow: 
+  /* logo shadow */
+  0px 0px 2px #5f5f5f,
+  /* offset */
+  0px 0px 0px 5px #ecf0f3,
+  /*bottom right */
+  8px 8px 15px #a7aaaf,
+  /* top left */
+  -8px -8px 15px #ffffff
+  ;
+}
+
+
+.login-div {
+  position: fixed;
+  width:25vw;
+  height: 100%;
+  padding: 5px 30px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+}
+.nav {
+  /*position: fixed;*/
+  width: 25vw;
+  /* height: 100%; */
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  
+}
+
+.decription_ticker{
+  width:95%;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 25px 25px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+
+}
+
+.graphs{
+  
+  height: auto;
+  margin-bottom: 20px;
+  padding: 25px 25px 35px 35px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff;
+
+}
+
+@keyframes fadein {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 0.5;
+  }
+}
+
+._dash-loading-callback {
+font-family: sans-serif;
+
+color: #86a7ff;
+
+
+/* The banner */
+position: fixed;
+top: 1%;
+left:25%;
+width: 800px ;
+height: 800px;
+text-align: center;
+cursor: progress;
+background-image: url(load.svg);
+background-color: #86a7ff,;
+opacity:75%;
+
+
+
+/* Delay animation by 1s to prevent flashing 
+   and smoothly transition the animation over 0.5s 
+ */
+/* -moz-animation: fadein 0.5s ease-in 1s forwards; /* Firefox */
+/*/*-webkit-animation: fadein 0.5s ease-in 1s forwards; /* Safari and Chrome */
+/*-o-animation: fadein 0.5s ease-in 1s forwards; /* Opera */
+/*  animation: fadein 0.5s ease-in 1s forwards; */
+}
