@@ -33,4 +33,4 @@ sklearn==0.0
 threadpoolctl==2.1.0
 urllib3==1.26.5
 Werkzeug==2.0.1
-yfinance==0.1.59
+yfinance==0.1.63
